@@ -11,7 +11,7 @@ export default function Hero() {
               One campus app for matching, posting, and chatting
             </h1>
             <p className="mt-4 text-lg text-slate-600">
-              CampusConnect combines swipes like Tinder, a feed like Instagram, and chats like WhatsApp—built specifically for university life.
+              CampusConnect brings together swipes, a social feed, and real-time messages—purpose-built for students.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <span className="inline-flex items-center gap-2 rounded-full bg-white border border-slate-200 px-3 py-1 text-sm text-slate-700 shadow-sm"><MapPin size={16}/> Campus-first</span>
@@ -20,12 +20,12 @@ export default function Hero() {
               <span className="inline-flex items-center gap-2 rounded-full bg-white border border-slate-200 px-3 py-1 text-sm text-slate-700 shadow-sm"><MessageCircle size={16}/> Real-time chats</span>
             </div>
             <div className="mt-8 flex flex-col sm:flex-row gap-3">
-              <button className="px-5 py-3 rounded-xl font-semibold text-white bg-gradient-to-r from-indigo-600 to-fuchsia-600 shadow hover:opacity-95">
-                Try the MVP preview
-              </button>
-              <button className="px-5 py-3 rounded-xl font-semibold text-slate-800 bg-white border border-slate-200 hover:bg-slate-50">
-                View API & schema docs
-              </button>
+              <a href="#features" className="px-5 py-3 rounded-xl font-semibold text-white bg-gradient-to-r from-indigo-600 to-fuchsia-600 shadow hover:opacity-95">
+                Explore Features
+              </a>
+              <a href="#contact" className="px-5 py-3 rounded-xl font-semibold text-slate-800 bg-white border border-slate-200 hover:bg-slate-50">
+                Get Started
+              </a>
             </div>
           </div>
           <div className="relative">

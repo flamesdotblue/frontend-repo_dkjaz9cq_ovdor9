@@ -11,13 +11,13 @@ const features = [
     title: 'Messaging',
     icon: MessageCircle,
     desc: 'One-on-one and group chats with text, images, and voice notes using real-time updates.',
-    pill: 'Socket.io powered',
+    pill: 'Realtime',
   },
   {
     title: 'Posting Feed',
     icon: Camera,
     desc: 'Share photos, videos, and text posts. Likes, comments, and campus-focused sharing.',
-    pill: 'Events & study groups',
+    pill: 'Events & study',
   },
   {
     title: 'Stories',
@@ -34,7 +34,7 @@ const features = [
   {
     title: 'Privacy & Safety',
     icon: Lock,
-    desc: 'Block and report users. Restrict access by campus via geofencing or verification.',
+    desc: 'Block and report users. Restrict access by campus via verification.',
     pill: 'Student-first',
   },
   {
@@ -56,7 +56,7 @@ export default function Features() {
     <section id="features" className="relative">
       <div className="max-w-6xl mx-auto px-4 py-12">
         <h2 className="text-3xl md:text-4xl font-bold text-slate-900">Everything students need to connect on campus</h2>
-        <p className="mt-2 text-slate-600">Focused MVP scope: one campus, core flows, and functional UI over polish.</p>
+        <p className="mt-2 text-slate-600">Polished, responsive, and ready to publish—covering the core experiences that matter.</p>
 
         <div className="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {features.map((f) => (

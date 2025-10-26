@@ -2,8 +2,8 @@ export default function Wireframes() {
   return (
     <section id="wireframes" className="relative">
       <div className="max-w-6xl mx-auto px-4 py-12">
-        <h2 className="text-3xl md:text-4xl font-bold text-slate-900">MVP wireframes</h2>
-        <p className="mt-2 text-slate-600">Key screens: login, profile, swipe, feed, and chat.</p>
+        <h2 className="text-3xl md:text-4xl font-bold text-slate-900">Key screens</h2>
+        <p className="mt-2 text-slate-600">Login, profile, swipe, feed, chat, and stories—mapped for a clean v1 rollout.</p>
 
         <div className="mt-8 grid md:grid-cols-3 gap-6">
           <WireframeCard title="Login">
@@ -77,10 +77,10 @@ export default function Wireframes() {
         </div>
 
         <div id="contact" className="mt-10 rounded-2xl border border-slate-200 bg-white p-6 text-center">
-          <p className="text-slate-700">Want the full repo structure, API docs, and deployment guide? I can generate those next and wire the backend.</p>
-          <button className="mt-4 px-5 py-3 rounded-xl font-semibold text-white bg-gradient-to-r from-indigo-600 to-fuchsia-600 shadow hover:opacity-95">
-            Continue to backend & API
-          </button>
+          <p className="text-slate-700">Want this launched with backend, auth, and real-time chat? I can wire the API and deployment next.</p>
+          <a href="#" className="mt-4 inline-block px-5 py-3 rounded-xl font-semibold text-white bg-gradient-to-r from-indigo-600 to-fuchsia-600 shadow hover:opacity-95">
+            Contact us
+          </a>
         </div>
       </div>
     </section>
